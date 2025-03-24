@@ -1,5 +1,62 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80rem;
+    background-color: #58f11c;
+    color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 20rem;
+    height: 30rem;
     background: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.4rem rgba(132, 132, 132, 0.5);
+    position: relative;
+}
+
+#palo-up {
+    align-self: flex-start;
+    font-size: 4rem;
+}
+
+#value {
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#palo-down {
+    align-self: flex-end;
+    font-size: 4rem;
+    transform: rotate(180deg);
+}
+
+button {
+    width: 20rem;
+    background-color: #8ede0c;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+p {
+    font-size: 1rem;
+    padding: 1rem;
+    font-weight: light;
+    text-align: center;
+    color: black;
 }
